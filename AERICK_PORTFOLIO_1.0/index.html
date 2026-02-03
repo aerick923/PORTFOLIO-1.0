@@ -1,5 +1,15 @@
 <!-- FEBRUARY 2, 2026: STARTING POINT -->
 
+<!-- FEBRUARY 3, 2026: 
+     FEATURES ADDED:
+      the <br> tag inside a <p> tag instead of multiple <p> tags;
+      the style attribute to each header (h1) and paragraph (<p> tag) to adjust font-size;
+      the <hr> tag to formally section each part of the portfolio;
+      the <b> tag that signifies text formatting;
+
+      added a simple javascript button from the We3 Website that allows the user to see date and time;
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,33 +17,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
 
-    <h1> ABOUT ME: </h1>
-    <p> Hello World! I am Aerick Lee P. Alba, 20 years old. An Aspiring Game Developer.</p>
+    <button type="button"
+    onclick="document.getElementById('testing').innerHTML = Date()">Click to see date and time</button>
 
-    <h1> PROGRAMMING LANGUAGES THAT I USE: </h1>
-    <p> C++ </p>
-    <p> HTML/CSS/JS </p>
-    <p> Java </p>
-    <p> Python </p>
+    <p id="testing"></p>
 
-    <h1> NON-CODING TOOLS/RESOURCES THAT I USE: </h1>
-    <p> SQL </p>
-    <p> Canva (Pro) </p>
-    <p> Figma </p>
-    <p> Photopea </p>
+    <h1 style="font-size: 50px;"> ABOUT ME: </h1>
+    <p style="font-size: 30px;"> Hello World! I am <b>Aerick Lee P. Alba</b>, 20 years old. A <b>Developer</b>.</p>
 
-    <h1> MY SOCIAL LINKS: </h1>
-    <a href="https://www.youtube.com/@web-z7t">Youtube</a> <br>
-    <a href="https://www.facebook.com/aerick.alba/">Facebook</a> <br>
-    <a href="https://www.linkedin.com/in/aerick-lee-alba-74a795344/">LinkedIn</a> <br>
-    <a href="https://github.com/aerick923?tab=overview&from=2026-02-01&to=2026-02-02">GitHub</a> <br>
+    <hr>
 
-    <h1> CONTACT ME: </h1>
-    <p> albaaericklee@gmail.com </p>
+    <h1 style="font-size: 50px;"> PROGRAMMING LANGUAGES THAT I USE: </h1>
+    <p style="font-size: 30px;"> C++ <br> HTML/CSS/JS  <br> Java <br> Python </p>
+
+    <hr>
+    
+    <h1 style="font-size: 50px;"> NON-CODING TOOLS/RESOURCES THAT I USE: </h1>
+    <p style="font-size: 30px;"> SQL <br> Canva (Pro) <br> Figma <br> Photopea </p>
+
+    <hr>
+
+    <h1 style="font-size: 50px;"> MY SOCIAL LINKS: </h1>
+    <a href="https://www.youtube.com/@web-z7t" target="_blank">Youtube</a> <br>
+    <a href="https://www.facebook.com/aerick.alba/" target="_blank">Facebook</a> <br>
+    <a href="https://www.linkedin.com/in/aerick-lee-alba-74a795344/" target="_blank">LinkedIn</a> <br>
+    <a href="https://github.com/aerick923?tab=overview&from=2026-02-01&to=2026-02-02" target="_blank">GitHub</a> <br>
+
+    <hr>
+
+    <h1 style="font-size: 50px;"> MY PROJECTS: </h1>
+    <p style="font-size: 30px;"> ACADEMIC HUB 1.0 (Work in Progress)</p>
+    <p style="font-size: 20px;"> PROJECT DESCRIPTION: A Simple C++ Learning Management System (LMS) designed for Student
+        and Teacher use
+    </p>
+    <a href="https://github.com/aerick923/ACADEMIC-HUB-1.0" target="_blank">Source Code</a>
+
+    <hr>
+
+    <h1 style="font-size: 50px;"> CONTACT INFORMATION: </h1>
+    <p style="font-size: 30px;">EMAIL: albaaericklee@gmail.com <br> CONTACT NUMBER: 0920-263-9948 </p>
+
+    <hr>
     
 </body>
 

@@ -1,1 +1,30 @@
 /* FEBRUARY 2, 2026: STARTING POINT */
+
+/* FEBRUARY 3, 2026: 
+    FEATURES ADDED:
+    h1, p, body
+
+*/
+
+h1
+{
+    color: rgb(135, 177, 163);
+    font-family: Verdana;
+    text-align: center;
+    font-size: 50px;
+}
+
+p
+{
+    font-family: Verdana;
+    text-align: justify;
+}
+
+body
+{
+
+    background-color: rgb(195, 171, 110);
+}
+
+
+

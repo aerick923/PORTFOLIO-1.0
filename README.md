@@ -13,4 +13,4 @@ A Work-in-Progress HTML/CSS/JS project that showcases my skill in Web Developmen
 
 # MANDATORY:
 
-This README was last updated on February 2, 2026
+This Repository was last updated on February 3, 2026

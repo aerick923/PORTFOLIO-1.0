@@ -11,6 +11,15 @@ A Work-in-Progress HTML/CSS/JS project that showcases my skill in Web Developmen
 
 - None so far
 
+# SECTIONS OF THE PORTFOLIO:
+
+- About Me
+- Programming languages that i use
+- Non-coding tools/resources that i use
+- My Social Links
+- My Projects
+- Contact Information
+
 # MANDATORY:
 
-This Repository was last updated on February 3, 2026
+This README was last updated on February 4, 2026

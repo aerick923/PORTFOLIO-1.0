@@ -10,12 +10,14 @@
     FEATURES ADDED:
     font-size to p
     font, size and text-alignment to ul
+    font/size/hover hyperlinks
+    font/size/hover to button 
 
 */
 
 h1
 {
-    color: rgb(135, 177, 163);
+    color: rgb(220, 228, 225);
     font-family: Verdana;
     text-align: center;
     font-size: 50px;
@@ -25,6 +27,7 @@ p
 {
     font-family: Verdana;
     text-align: justify;
+    text-align: center;
     font-size: 30px;
 }
 
@@ -40,5 +43,28 @@ ul{
     font-size: 30px;
 }
 
+a:link, a:visited{
+    background-color: rgb(131, 145, 145);
+    color: bisque;
+    padding: 15px 25px;
+    font-size: 30px;
+    font-family: Verdana;
+    text-decoration: none;
+    display: inline-block;
+}
 
+a:hover, a:active{
+    background-color: rgb(160, 173, 169);
+}
 
+button{
+    background-color: rgb(131, 145, 145);
+    color: bisque;
+    font-size: 30px;
+    font-family: Verdana;
+
+}
+
+button:hover{
+    background-color: rgb(160, 173, 169);
+}

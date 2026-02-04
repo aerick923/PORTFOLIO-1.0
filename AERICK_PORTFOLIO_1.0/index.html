@@ -14,6 +14,7 @@
      FEATURES ADDED:
      the resume section;
      the <ul> tag
+     center hyperlinks
 
      FEATURES DEDUCTED:
      removed in-line style from headers because there is already a font-size from the css file;
@@ -37,14 +38,25 @@
     <button type="button"
     onclick="document.getElementById('testing').innerHTML = Date()">Click to see date and time</button>
 
-    <p id="testing"></p>
+     <p id="testing"></p>
 
-    <h1> ABOUT ME: </h1>
+    <!-- FEBRUARY 4, 2026: practice coding a bookmark before implementing a navbar/sidebar -->
+     <p><a href="#about">About Me</a></p>
+     <p><a href="#languages">Programming Languages that i use</a></p>
+     <p><a href="#non_coding">Non-Coding Tools/Resources</a></p>
+     <p><a href="#resume">Resume</a></p>
+     <p><a href="#projects">Projects</a></p>
+     <p><a href="#socials">Social Links</a></p>
+     <p><a href="#contact">Contact Information</a></p>
+
+   
+
+    <h1 id="about"> ABOUT ME: </h1>
     <p> Hello World! I am <b>Aerick Lee P. Alba</b>, 20 years old. A <b>Developer</b>.</p>
 
     <hr>
 
-    <h1> PROGRAMMING LANGUAGES THAT I USE: </h1>
+    <h1 id="languages"> PROGRAMMING LANGUAGES THAT I USE: </h1>
     <ul> 
         <li>C++ </li>
         <li>HTML/CSS/JS </li>
@@ -54,7 +66,7 @@
     
     <hr>
     
-    <h1> NON-CODING TOOLS/RESOURCES THAT I USE: </h1>
+    <h1 id="non_coding"> NON-CODING TOOLS/RESOURCES THAT I USE: </h1>
     <ul> 
         <li>SQL </li>
         <li>Canva (Pro) </li>
@@ -64,33 +76,39 @@
     
     <hr>
 
-    <h1> MY RESUME: </h1>
+    <h1 id="resume"> MY RESUME: </h1>
     <p> AERICK LEE P. ALBA <br>  
         STUDENT DEVELOPER <br> 
     </p>
     
     <hr>
 
-    <h1> MY PROJECTS: </h1>
-    <p> PROJECT TITLE: Academic Hub 1.0 (Work in Progress)</p>
-    <p> PROJECT DESCRIPTION: A Simple C++ Learning Management System (LMS) designed for Student
-        and Teacher use
+    <h1 id="projects"> MY PROJECTS: </h1>
+    <p> <b>PROJECT TITLE:</b> Academic Hub 1.0 (Work in Progress) <br> 
+
+        <b>PROJECT DESCRIPTION:</b> A Simple C++ Learning Management System (LMS) designed for Student
+           and Teacher use
     </p>
+
+    <center>
     <a href="https://github.com/aerick923/ACADEMIC-HUB-1.0" target="_blank">Source Code</a>
+    </center>
 
     <hr>
 
-    <h1> MY SOCIAL LINKS: </h1>
+    <h1 id="socials"> MY SOCIAL LINKS: </h1>
+    <center>
     <a href="https://www.youtube.com/@web-z7t" target="_blank">Youtube</a> <br>
     <a href="https://www.facebook.com/aerick.alba/" target="_blank">Facebook</a> <br>
     <a href="https://www.linkedin.com/in/aerick-lee-alba-74a795344/" target="_blank">LinkedIn</a> <br>
-    <a href="https://github.com/aerick923?tab=overview&from=2026-02-01&to=2026-02-02" target="_blank">GitHub</a> <br>
+    <a href="https://github.com/aerick923?tab=overview&from=2026-02-01&to=2026-02-02" target="_blank">GitHub</a>
+    </center> <br>
 
     <hr>
 
-    <h1> CONTACT INFORMATION: </h1>
-    <p>EMAIL: albaaericklee@gmail.com <br>
-         CONTACT NUMBER: 0920-263-9948 </p>
+    <h1 id="contact"> CONTACT INFORMATION: </h1>
+    <p>  <b>EMAIL:</b> albaaericklee@gmail.com <br>
+         <b>CONTACT NUMBER:</b> 0920-263-9948 </p>
 
     <hr>
     

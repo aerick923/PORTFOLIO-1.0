@@ -6,6 +6,13 @@
 
 */
 
+/* FEBRUARY 4, 2026: 
+    FEATURES ADDED:
+    font-size to p
+    font, size and text-alignment to ul
+
+*/
+
 h1
 {
     color: rgb(135, 177, 163);
@@ -18,12 +25,19 @@ p
 {
     font-family: Verdana;
     text-align: justify;
+    font-size: 30px;
 }
 
 body
 {
 
     background-color: rgb(195, 171, 110);
+}
+
+ul{
+    font-family: Verdana;
+    text-align: justify;
+    font-size: 30px;
 }
 
 

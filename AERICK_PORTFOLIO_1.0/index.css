@@ -15,6 +15,12 @@
 
 */
 
+/* FEBRUARY 5, 2026: 
+    FEATURES ADDED:
+    border radius
+
+*/
+
 h1
 {
     color: rgb(220, 228, 225);
@@ -51,6 +57,8 @@ a:link, a:visited{
     font-family: Verdana;
     text-decoration: none;
     display: inline-block;
+    border: none;
+    border-radius: 20px;
 }
 
 a:hover, a:active{
@@ -62,9 +70,14 @@ button{
     color: bisque;
     font-size: 30px;
     font-family: Verdana;
+    border: none;
+    border-radius: 10px;
 
 }
 
 button:hover{
     background-color: rgb(160, 173, 169);
+    border: none;
+   
 }
+

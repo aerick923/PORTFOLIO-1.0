@@ -25,10 +25,19 @@
      FEATURES ADDED:
      the certification section;
     
-
      FEATURES DEDUCTED:
      the <hr> tag
-     
+-->
+
+<!-- FEBRUARY 6, 2026: 
+     FEATURES ADDED:
+     the java programming language to the certification section;
+
+     FEATURES DEDUCTED:
+     </p> tags to bookmark;
+     <br> tags to my social links section;
+     <code> tag; 
+     <footer> tag;
 
 -->
 
@@ -46,31 +55,34 @@
 
 <body>
 
+    <button onclick="alert('Welcome to my Portfolio!')">Greetings</button>
+
     <button type="button"
     onclick="document.getElementById('testing').innerHTML = Date()">Click to see date and time</button>
 
      <p id="testing"></p>
 
     <!-- FEBRUARY 4, 2026: practice coding a bookmark before implementing a navbar/sidebar -->
-     
-        <p><a href="#about">About Me</a></p>
-     <p><a href="#languages">Programming Languages that i use</a></p>
-     <p><a href="#non_coding">Non-Coding Tools/Resources</a></p>
-     <p><a href="#resume">Resume</a></p>
-     <p><a href="#projects">Projects</a></p>
-     <p><a href="#certificate">Certifications</a></p>
-     <p><a href="#socials">Social Links</a></p>
-     <p><a href="#contact">Contact Information</a></p> 
+     <p>
+     <a href="#about">About Me</a>
+     <a href="#languages">Programming Languages that i use</a>
+     <a href="#non_coding">Non-Coding Tools/Resources</a>
+     <a href="#resume">Resume</a>
+     <a href="#projects">Projects</a>
+
+     <a href="#certificate">Certifications</a>
+     <a href="#socials">Social Links</a>
+     <a href="#contact">Contact Information</a></p> 
     
     <h1 id="about"> ABOUT ME: </h1>
     <p> Hello World! I am <b>Aerick Lee P. Alba</b>, 20 years old. A <b>Developer</b>.</p>
 
     <h1 id="languages"> PROGRAMMING LANGUAGES THAT I USE: </h1>
     <ul> 
-        <li>C++ </li>
+        <li><code>C++</code></li>
         <li>HTML/CSS/JS </li>
-        <li>Java </li>
-        <li>Python </li>
+        <li><code>Java</code></li>
+        <li><code>Python</code></li>
     </ul>
     
     <h1 id="non_coding"> NON-CODING TOOLS/RESOURCES THAT I USE: </h1>
@@ -89,7 +101,7 @@
     <h1 id="projects"> MY PROJECTS: </h1>
     <p> <b>PROJECT TITLE:</b> Academic Hub 1.0 (Work in Progress) <br> 
 
-        <b>PROJECT DESCRIPTION:</b> A Simple C++ Learning Management System (LMS) designed for Student
+        <b>PROJECT DESCRIPTION:</b> A Simple <code>C++</code> Learning Management System (LMS) designed for Student
            and Teacher use
     </p>
 
@@ -98,12 +110,15 @@
     </center>
 
     <h1 id="certificate"> CERTIFICATIONS TAKEN: </h1>
+    <p> <b>PROGRAMMING LANGUAGE:</b> <code>Java</code> <br> 
+
+    </p>
 
     <h1 id="socials"> MY SOCIAL LINKS: </h1>
     <center>
-    <a href="https://www.youtube.com/@web-z7t" target="_blank">Youtube</a> <br>
-    <a href="https://www.facebook.com/aerick.alba/" target="_blank">Facebook</a> <br>
-    <a href="https://www.linkedin.com/in/aerick-lee-alba-74a795344/" target="_blank">LinkedIn</a> <br>
+    <a href="https://www.youtube.com/@web-z7t" target="_blank">Youtube</a> 
+    <a href="https://www.facebook.com/aerick.alba/" target="_blank">Facebook</a> 
+    <a href="https://www.linkedin.com/in/aerick-lee-alba-74a795344/" target="_blank">LinkedIn</a> 
     <a href="https://github.com/aerick923?tab=overview&from=2026-02-01&to=2026-02-02" target="_blank">GitHub</a>
     </center> <br>
 
@@ -112,6 +127,10 @@
         <b>EMAIL:</b> albaaericklee@gmail.com <br>
         <b>CONTACT NUMBER:</b> 0920-263-9948 
     </p>
+
+    <footer>
+        <p> Aerick Lee P. Alba - 2026 - Apache 2.0 License </p>
+    </footer>
 
 </body>
 

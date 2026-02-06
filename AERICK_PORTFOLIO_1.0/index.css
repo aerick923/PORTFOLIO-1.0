@@ -21,6 +21,14 @@
 
 */
 
+/* FEBRUARY 6, 2026: 
+    FEATURES ADDED:
+    footer properties
+
+*/
+
+
+
 h1
 {
     color: rgb(220, 228, 225);
@@ -79,5 +87,12 @@ button:hover{
     background-color: rgb(160, 173, 169);
     border: none;
    
+}
+
+footer {
+  background-color: rgb(131, 145, 145);
+  padding: 10px;
+  text-align: center;
+  color: white;
 }
 

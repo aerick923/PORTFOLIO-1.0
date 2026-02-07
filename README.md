@@ -1,6 +1,10 @@
 # PORTFOLIO 1.0: OVERVIEW:
 A Work-in-Progress HTML/CSS/JS project that showcases my skill in Web Development.
 
+# OBJECTIVES OF THIS PROJECT:
+
+For me to showcase my Web Development skills by constructing a live personal portfolio and adding projects to it
+
 # PROGRAMMING LANGUAGE/S USED FOR THIS PROJECT:
 
 - HTML

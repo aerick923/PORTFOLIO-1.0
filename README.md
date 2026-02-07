@@ -26,4 +26,4 @@ For me to showcase my Web Development skills by constructing a live personal por
 
 # MANDATORY:
 
-This README was last updated on February 4, 2026
+This README was last updated on February 7, 2026

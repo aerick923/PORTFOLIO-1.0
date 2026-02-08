@@ -1,3 +1,7 @@
+# NOTES:
+
+No Live Portfolio as of the moment
+
 # PORTFOLIO 1.0: OVERVIEW:
 A Work-in-Progress HTML/CSS/JS project that showcases my skill in Web Development.
 
@@ -26,4 +30,4 @@ For me to showcase my Web Development skills by constructing a live personal por
 
 # MANDATORY:
 
-This README was last updated on February 7, 2026
+This README was last updated on February 8, 2026
